@@ -1,0 +1,43 @@
+nav {
+    display: grid;
+}
+
+.navbar {
+    border: 2px solid rgb(242, 55, 55);
+    height: 100px;
+}
+
+.slider {
+    height: 250px;
+    border: 2px solid red;
+}
+
+.someheading {
+    display: grid;
+
+    /* grid-template-columns: auto; */
+    grid-gap: 3%;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 44px;
+}
+
+.itemsheading {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.item1 {
+    border: 1px solid red;
+    height: 200px;
+    width: 300px;
+    /* margin-left: %; */
+
+}
+
+footer {
+    margin-top: 23px;
+    border: 1px solid red;
+    height: 450px;
+    text-align: center;
+}
